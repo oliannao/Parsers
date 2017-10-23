@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+	<book id="1">
+		<ISBN number="0000" />
+		<title>Book1</title>
+		<pages>10</pages>
+		<authors>
+			<author>
+				<name>Author1</name>
+				<date-of-birth>1962-11-07</date-of-birth>
+			</author>
+			<author>
+				<name>Author1</name>
+				<date-of-birth>1962-11-07</date-of-birth>
+			</author>
+		</authors>
+	</book>
+	<book id="2">
+		<ISBN number="0000" />
+		<title>Book2</title>
+		<pages>28</pages>
+		<authors>
+			<author>
+				<name>Author2</name>
+				<date-of-birth>1958-10-22</date-of-birth>
+			</author>
+		</authors>
+	</book>
+</books>
