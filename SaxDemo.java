@@ -19,10 +19,9 @@ public class SaxDemo {
 		XMLReader reader = XMLReaderFactory.createXMLReader();
 		SimpleSax handler = new SimpleSax();
 		reader.setContentHandler(handler);
-		reader.parse(new InputSource(new FileReader("D:\\Разное\\Java\\ParserBooks\\Resources\\library.xml")));
+		reader.parse(new InputSource(new FileReader("D:\\library.xml")));
 		//handler.startDocument();
 		List<Book> books = handler.getBookList();
-		Book book = handler.getBook();
 		for (Book b : books) {
 			System.out.println(b);
 		}
